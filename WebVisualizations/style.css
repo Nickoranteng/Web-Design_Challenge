@@ -1,0 +1,108 @@
+body {
+    font-family: Georgia;
+    font-size: 1.1em;
+    background-color:light gray;
+  }
+  
+  .navbar-light .navbar-brand {
+    color: white;
+  }
+  
+  .navbar {
+    background-color: white;
+    width: 100%;
+    padding: 0;
+  }
+  
+  .navbar-brand {
+    font-family: ;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: Teal;
+    padding: 6px;
+    margin-left: 5%;
+  }
+  
+  .navbar-collapse {
+    position: absolute;
+    right: 5%;
+    font-size: small;
+  }
+  
+  .nav-item {
+    font-weight: bold;
+  }
+  
+  .content {
+    width:90%;
+    margin: 20px auto;
+    padding:1em;
+  }
+    
+  .buttons {
+    margin-bottom: .5em;
+  }
+  
+  .text-left {
+    text-align: left;
+    color: Teal;
+    font-family: Georgia;
+    font-weight: bolder;
+  }
+  
+  .text-center {
+    color:Teal;
+    font-family: Georgia;
+    font-weight: bolder;
+  }
+  
+  p:not(.intro) {
+    text-align: justify;
+    color: black;
+  }
+  
+  .right-image {
+    width:50%;
+  }
+  
+  .Left-image {      
+      margin-left: auto;
+      margin-right: auto;
+      width: 40%;
+      float: left;
+  }
+  
+  .col-md-8 {
+    background-color: white;
+  }
+  
+  .col-sm-12,.col-md-4 {
+    background-color: white;
+  }
+  
+  div.col-sm-12.col-md-12 div.col-lg-6.col-sm-12 img {
+    width: 100%;
+  }
+  
+  .imagetiles {
+    background-color: white;
+  }
+  div.imagetiles div.col-lg-6.col-sm-12 img {
+    width: 100%;
+  }
+  
+  div.col-sm-12.col-md-12 p {
+    color: black;
+    font-size: medium;
+  }
+  
+  .panel-body:hover {
+    border-color: blueviolet;
+    border size: 50px;
+  }
+  
+  @include media-breakpoint-down(md) {
+    .col-md-8 {
+      display: block;
+    }
+  }
