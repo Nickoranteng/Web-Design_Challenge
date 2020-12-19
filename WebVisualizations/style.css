@@ -1,7 +1,9 @@
 body {
     font-family: Georgia;
-    font-size: 25px;
+    font-size: 20px;
     background-color:light gray;
+    line-height:1.6em;
+  
   }
   
   .navbar-light .navbar-brand {
@@ -15,8 +17,8 @@ body {
   }
   
   .navbar-brand {
-    font-family: ;
-    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
     font-weight: bold;
     background-color: Teal;
     padding: 6px;
@@ -31,12 +33,14 @@ body {
   
   .nav-item {
     font-weight: bold;
+
   }
   
   .content {
-    width:90%;
+    background-color: #e6f2ff;
+    width:100%;
     margin: 20px auto;
-    padding:1em;
+    padding:100px;
   }
     
   .buttons {
@@ -46,15 +50,11 @@ body {
   .text-left {
     text-align: left;
     color: Teal;
-    font-family: Georgia;
-    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
   }
   
-  .text-center {
-    color:Teal;
-    font-family: Georgia;
-    font-weight: bolder;
-  }
+  
   
   p:not(.intro) {
     text-align: justify;
@@ -63,18 +63,19 @@ body {
   
   .right-image {
     width:50%;
+
+  
   }
   
   .Left-image {      
       margin-left: auto;
       margin-right: auto;
-      width: 40%;
+      width: 50%;
       float: left;
+ 
   }
   
-  .col-md-8 {
-    background-color: white;
-  }
+  
   
   .col-sm-12,.col-md-4 {
     background-color: white;
@@ -87,8 +88,9 @@ body {
   .imagetiles {
     background-color: white;
   }
+  
   div.imagetiles div.col-lg-6.col-sm-12 img {
-    width: 100%;
+    width: 8%;
   }
   
   div.col-sm-12.col-md-12 p {
@@ -96,13 +98,11 @@ body {
     font-size: medium;
   }
   
-  .panel-body:hover {
-    border-color: blueviolet;
-    border size: 50px;
-  }
   
   @include media-breakpoint-down(md) {
     .col-md-8 {
       display: block;
     }
+
   }
+
